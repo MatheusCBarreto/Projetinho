@@ -1,0 +1,57 @@
+/* CSS reset */
+body, h1, h2, p, ul {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #FFFAFA;
+    margin-top: 50px;
+    border: 1px solid black;
+    font-family: "Roboto";
+    border-radius: 5px;
+}
+
+.community {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1 / -1;
+    padding: 45px;
+}
+
+.community h1 {
+    color: #20B2AA;
+}
+
+.community h2 {
+    color: #B8860B;
+}
+
+.community p {
+    color: #808080;
+}
+
+.subscription {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 70px;
+    background: #20B2AA;
+    color: #B0E0E6;
+}
+
+.subscription-title {
+    padding-top: 40px;
+    color: #E0FFFF;
+}
+
+.price {
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+}
